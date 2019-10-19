@@ -22,6 +22,8 @@ namespace CookServeV2
             InitializeComponent();
             CurrentFood = currentFood;
             Init();
+            this.KeyPreview = true; 
+            
         }
         void Init()
         {
@@ -35,6 +37,8 @@ namespace CookServeV2
             }
             string[] names = { "John", "Matt", "Gary" };
             test = new Customer(names[gen.Next(3)], CurrentFood.Recipes[gen.Next(CurrentFood.Recipes.Length)]);
+
+         
         }
         FoodKey addNewFoodKey(Keys key, string ingredient, Point location)
         {
@@ -62,6 +66,22 @@ namespace CookServeV2
             CustomerLabel.Text = test.GetOrder();
         }
 
-   
+        private void CookingForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            foreach(var ing in possibleIngredients)
+            {
+                if(e.KeyCode == ing.GetKey())
+                {
+                    foreach(var key in foodKeys)
+                    {
+                        if(ing.IngredientKey == key.key)
+                        {
+                            key.deactivateKey();
+                        }
+                    }
+                }
+            }
+       
+        }
     }
 }

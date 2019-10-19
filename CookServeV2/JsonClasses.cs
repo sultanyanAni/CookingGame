@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace CookServeV2
 {
@@ -94,6 +95,11 @@ namespace CookServeV2
         public string IngredientKey { get; set; }
         public string IngredientImage { get; set; }
         public int LayerNum { get; set; }
+
+        public Keys GetKey()
+        {
+            return (Keys)Enum.Parse(typeof(Keys),IngredientKey);
+        }
     }
 
 }

@@ -50,6 +50,7 @@
             this.Name = "CookingForm";
             this.Text = "CookingForm";
             this.Load += new System.EventHandler(this.CookingForm_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CookingForm_KeyDown);
             this.ResumeLayout(false);
 
         }
