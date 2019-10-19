@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Foods>
+    <Food>
+    <Name>Pizza</Name>
+    <Recipes>
+        <Recipe>
+        <RecipeName>Mushroom</RecipeName>
+        <Ingredients>
+
+            <Ingredient>
+                <IngredientName>Tomato Sauce</IngredientName>
+                <IngredientKey>T</IngredientKey>
+                <IngredientImage>Resources/tomatoSauce.png</IngredientImage>
+                <LayerNum>1</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Cheese</IngredientName>
+                <IngredientKey>C</IngredientKey>
+                <IngredientImage>Resources/cheese.png</IngredientImage>
+                <LayerNum>2</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Mushrooms</IngredientName>
+                <IngredientKey>M</IngredientKey>
+                <IngredientImage>Resources/mushroom.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Pepperoni</IngredientName>
+                <IngredientKey>P</IngredientKey>
+                <IngredientImage>Resources/pepperoni.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+        </Ingredients>
+        </Recipe>
+
+        <Recipe>
+        <RecipeName>Jalapeno Bacon</RecipeName>
+        <Ingredients>
+
+            <Ingredient>
+                <IngredientName>Tomato Sauce</IngredientName>
+                <IngredientKey>T</IngredientKey>
+                <IngredientImage>Resources/tomatoSauce.png</IngredientImage>
+                <LayerNum>1</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Cheese</IngredientName>
+                <IngredientKey>C</IngredientKey>
+                <IngredientImage>Resources/cheese.png</IngredientImage>
+                <LayerNum>2</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Jalapenos</IngredientName>
+                <IngredientKey>M</IngredientKey>
+                <IngredientImage>Resources/mushroom.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Pepperoni</IngredientName>
+                <IngredientKey>P</IngredientKey>
+                <IngredientImage>Resources/pepperoni.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Bacon</IngredientName>
+                <IngredientKey>B</IngredientKey>
+                <IngredientImage>Resources/bacon.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+        </Ingredients>
+        </Recipe>
+
+        <Recipe>
+        <RecipeName>Chicken Alfredo</RecipeName>
+        <Ingredients>
+            <Ingredient>
+                <IngredientName>Alfredo Sauce</IngredientName>
+                <IngredientKey>A</IngredientKey>
+                <IngredientImage>Resources/alfredoSauce.png</IngredientImage>
+                <LayerNum>1</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Cheese</IngredientName>
+                <IngredientKey>C</IngredientKey>
+                <IngredientImage>Resources/cheese.png</IngredientImage>
+                <LayerNum>2</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Chicken</IngredientName>
+                <IngredientKey>K</IngredientKey>
+                <IngredientImage>Resources/chicken.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+        </Ingredients>
+        </Recipe>
+
+        <Recipe>
+        <RecipeName>Pepperoni</RecipeName>
+        <Ingredients>
+
+            <Ingredient>
+                <IngredientName>Tomato Sauce</IngredientName>
+                <IngredientKey>T</IngredientKey>
+                <IngredientImage>Resources/tomatoSauce.png</IngredientImage>
+                <LayerNum>1</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Cheese</IngredientName>
+                <IngredientKey>C</IngredientKey>
+                <IngredientImage>Resources/cheese.png</IngredientImage>
+                <LayerNum>2</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Pepperoni</IngredientName>
+                <IngredientKey>P</IngredientKey>
+                <IngredientImage>Resources/pepperoni.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+        </Ingredients>
+        </Recipe>
+
+        <Recipe>
+        <RecipeName>Barbeque Chicken</RecipeName>
+        <Ingredients>
+
+            <Ingredient>
+                <IngredientName>Barbeque Sauce</IngredientName>
+                <IngredientKey>Q</IngredientKey>
+                <IngredientImage>Resources/bbqSauce.png</IngredientImage>
+                <LayerNum>1</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Cheese</IngredientName>
+                <IngredientKey>C</IngredientKey>
+                <IngredientImage>Resources/cheese.png</IngredientImage>
+                <LayerNum>2</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Chicken</IngredientName>
+                <IngredientKey>K</IngredientKey>
+                <IngredientImage>Resources/chicken.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+        </Ingredients>
+        </Recipe>
+
+        <Recipe>
+        <RecipeName>Meaty</RecipeName>
+        <Ingredients>
+
+            <Ingredient>
+                <IngredientName>Tomato Sauce</IngredientName>
+                <IngredientKey>T</IngredientKey>
+                <IngredientImage>Resources/tomatoSauce.png</IngredientImage>
+                <LayerNum>1</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Cheese</IngredientName>
+                <IngredientKey>C</IngredientKey>
+                <IngredientImage>Resources/cheese.png</IngredientImage>
+                <LayerNum>2</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Pepperoni</IngredientName>
+                <IngredientKey>P</IngredientKey>
+                <IngredientImage>Resources/pepperoni.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+                   <Ingredient>
+                <IngredientName>Chicken</IngredientName>
+                <IngredientKey>K</IngredientKey>
+                <IngredientImage>Resources/chicken.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+              <Ingredient>
+                <IngredientName>Bacon</IngredientName>
+                <IngredientKey>B</IngredientKey>
+                <IngredientImage>Resources/bacon.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+
+        </Ingredients>
+        </Recipe>
+
+        <Recipe>
+        <RecipeName>Veggie</RecipeName>
+        <Ingredients>
+            <Ingredient>
+                <IngredientName>Tomato Sauce</IngredientName>
+                <IngredientKey>T</IngredientKey>
+                <IngredientImage>Resources/tomatoeSauce.png</IngredientImage>
+                <LayerNum>1</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Cheese</IngredientName>
+                <IngredientKey>C</IngredientKey>
+                <IngredientImage>Resources/cheese.png</IngredientImage>
+                <LayerNum>2</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Mushrooms</IngredientName>
+                <IngredientKey>M</IngredientKey>
+                <IngredientImage>Resources/mushroom.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Olives</IngredientName>
+                <IngredientKey>O</IngredientKey>
+                <IngredientImage>Resources/olives.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Jalapenos</IngredientName>
+                <IngredientKey>M</IngredientKey>
+                <IngredientImage>Resources/mushroom.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+        </Ingredients>
+        </Recipe>
+
+       <Recipe>
+        <RecipeName>Deluxe</RecipeName>
+        <Ingredients>
+
+            <Ingredient>
+                <IngredientName>Tomato Sauce</IngredientName>
+                <IngredientKey>T</IngredientKey>
+                <IngredientImage>Resources/tomatoSauce.png</IngredientImage>
+                <LayerNum>1</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Cheese</IngredientName>
+                <IngredientKey>C</IngredientKey>
+                <IngredientImage>Resources/cheese.png</IngredientImage>
+                <LayerNum>2</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Pepperoni</IngredientName>
+                <IngredientKey>P</IngredientKey>
+                <IngredientImage>Resources/pepperoni.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+                   <Ingredient>
+                <IngredientName>Chicken</IngredientName>
+                <IngredientKey>K</IngredientKey>
+                <IngredientImage>Resources/chicken.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+              <Ingredient>
+                <IngredientName>Bacon</IngredientName>
+                <IngredientKey>B</IngredientKey>
+                <IngredientImage>Resources/bacon.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Mushrooms</IngredientName>
+                <IngredientKey>M</IngredientKey>
+                <IngredientImage>Resources/mushroom.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Olives</IngredientName>
+                <IngredientKey>O</IngredientKey>
+                <IngredientImage>Resources/olives.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+            <Ingredient>
+                <IngredientName>Jalapenos</IngredientName>
+                <IngredientKey>M</IngredientKey>
+                <IngredientImage>Resources/mushroom.png</IngredientImage>
+                <LayerNum>3</LayerNum>
+            </Ingredient>
+
+        </Ingredients>
+        </Recipe>
+
+    </Recipes>
+    </Food>
+</Foods>
